@@ -1,0 +1,32 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+ul {list-style:none;}
+ul li {float:left; margin:5px;}
+
+h1 {font-weight:normal;}
+h1 span {font-weight:bold;color:orange;}
+
+a, a:link, a:visited {}
+a:hover {}
+
+
+/* -----------------------------------------
+   HEADER
+----------------------------------------- */
+
+.separator {width:1px;height:30px;border-left:2px dotted black;}
+.secondary {margin-top: 24px;
+padding: 0 10px;}
