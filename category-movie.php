@@ -21,23 +21,51 @@
 
         //vid 1
         array(
-          'title' => 'A Title',
-          'time' => '3:38',
-          'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae aliquet augue. Integer ut diam augue. Maecenas ac tortor sem. ',
+          'title' => 'PC\'s Home Movie',
+          'time' => '0:30',
+          'description' => 'PC wants to show off his home movie. But It\'s not quite there. A commercial for Apple.',
           'link' => '/link/'
         ),
         //vid 2
         array(
-          'title' => 'More Title',
-          'time' => '2:44',
-          'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae aliquet augue. Integer ut diam augue. Maecenas ac tortor sem. ',
+          'title' => 'Vader Cheats',
+          'time' => '0:31',
+          'description' => 'Darth Vader uses the force to cheat in golf. Who would dare challenge him? A commercial for Spike Network.',
           'link' => '/link/'
         ),
         //vid 3
         array(
-          'title' => 'Yup, A Title',
-          'time' => '4:20',
-          'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae aliquet augue. Integer ut diam augue. Maecenas ac tortor sem. ',
+          'title' => 'Bud Light - Wassuup!',
+          'time' => '1:02',
+          'description' => 'The average afternoon for some guys and their favorite, refreshing drink. A commercial for Budweiser.',
+          'link' => '/link/'
+        )
+        //vid 4
+        array(
+          'title' => 'Mazda - Improbable is Possible',
+          'time' => '0:30',
+          'description' => 'The Mazda CX-9 defies many stereotypes and becomes the best vehicle for an incredible world. A commercial for Mazda.',
+          'link' => '/link/'
+        )
+        //vid 5
+        array(
+          'title' => 'M&M\'s Won\'t Do That',
+          'time' => '0:30',
+          'description' => 'Red M&M is haunted by the lengths he won\'t go for love. A Commercial for M&M\'s.',
+          'link' => '/link/'
+        )
+        //vid 6
+        array(
+          'title' => 'Amy Poehler at Best Buy',
+          'time' => '0:32',
+          'description' => 'Amy Poehler\'s shopping at Best Buy and asks the really tough questions. A commercial for Best Buy.',
+          'link' => '/link/'
+        )
+        //vid 7
+        array(
+          'title' => 'How PSY Does it',
+          'time' => '0:30',
+          'description' => 'Everyone loves pistachios! Music sensation PSY is no different, and enjoys his Gangnam Style. A Commercial for Wonderful Pistachios.',
           'link' => '/link/'
         )
 
