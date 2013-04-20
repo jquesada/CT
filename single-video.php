@@ -12,8 +12,6 @@
     ?>
 
     <?php 
-      /*$video = $_GET['video']; 
-      $cat = $_GET['cat'];*/
 
       $getQuery = $_GET['video'];
 
@@ -100,9 +98,9 @@
     <hr/>
 
     <div class="post">
-      <video id="<?php $videoId ?>" controls="controls" style="width:50%;margin:auto;display:block;">
-        <source src="<?php $sourceOne ?>" type="video/mp4">
-        <source src="<?php $sourceTwo ?>" type="video/ogg">
+      <video id="<?php echo $videoId ?>" controls="controls" style="width:50%;margin:auto;display:block;">
+        <source src="<?php echo $sourceOne ?>" type="video/mp4">
+        <source src="<?php echo $sourceTwo ?>" type="video/ogg">
         Your browser does not support HTML5 video.
       </video>
 
