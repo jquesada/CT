@@ -98,7 +98,7 @@
     <hr/>
 
     <div class="post">
-      <video id="<?php echo $videoId ?>" controls="controls" style="width:50%;margin:auto;display:block;">
+      <video id="<?php echo $videoId ?>" controls="controls" width="800" style="width:50%;margin:auto;display:block;">
         <source src="<?php echo $sourceOne ?>" type="video/mp4">
         <source src="<?php echo $sourceTwo ?>" type="video/ogg">
         Your browser does not support HTML5 video.

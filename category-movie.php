@@ -15,7 +15,7 @@
     BELOW HERE, ENTER TITLES, VIDEO TIMES, AND VIDEO DESCRIPTIONS
 
     ------------------------------------------------------------------------*/
-
+    $query = "?video=";
     $vid_meta = array(
        // array('A TITLE','LENGTH OF MOVIE ie: 3:38','VIDEO DESCRIPTION', 'LINK'),
 
@@ -24,14 +24,14 @@
           'title' => 'You Can Act Like A Man',
           'time' => '0:33',
           'description' => 'The most intolerable offense of all is a man who is weak and out of control.',
-          'link' => '/link/'
+          'link' => 'movie_1'
         ),
         //vid 2
         array(
           'title' => 'Freeze!',
           'time' => '0:30',
           'description' => 'A mashup of Arnold Schwarzenegger\'s greatest quotes from Batman & Robin.',
-          'link' => '/link/'
+          'link' => 'movie_2'
         )
 
       );
@@ -51,13 +51,13 @@
 
         <div class="post">
           <div class="five column">
-            <a href="<?php echo $vid_meta[$count]['link']; ?>" class="" title="<?php echo $vid_meta[$count]['title']; ?>" >
+            <a href="single-video.php<?php echo $query.$vid_meta[$count]['query']; ?>" class="" title="<?php echo $vid_meta[$count]['title']; ?>" >
               <img class="" src="<?php echo $image; ?>" alt="<?php echo $vid_meta[$count]['title']; ?>" />
             </a>
-            <a href="<?php echo $vid_meta[$count]['link']; ?>" class="gallery button radius column" title="watch" >Watch</a>
+            <a href="single-video.php<?php echo $query.$vid_meta[$count]['query']; ?>" class="gallery button radius column" title="watch" >Watch</a>
           </div>
           <div class="seven column">
-            <a href="<?php echo $vid_meta[$count]['link']; ?>" class="" title="<?php echo $vid_titles[$count]['title']; ?>" >
+            <a href="single-video.php<?php echo $query.$vid_meta[$count]['query']; ?>" class="" title="<?php echo $vid_titles[$count]['title']; ?>" >
               <h2><?php echo $vid_meta[$count]['title']; ?></h2>
             </a>
             <p><?php echo $vid_meta[$count]['time']; ?></p>
