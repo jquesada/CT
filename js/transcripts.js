@@ -652,7 +652,319 @@
   { 
     lineText.innerHTML = "<b>Host:</b> Thank you very much, South Carolina.";
   }
+
+    ////ANIMATION ONE
+
+  animationOne=document.getElementById("animationOne");
+
+    var lineText = document.getElementById('lineOne');
+
+    if (animationOne.currentTime>3 && animationOne.currentTime<6)
+  { 
+    lineText.innerHTML = "Hey mister grumpy gills...";
+  }
+  if (animationOne.currentTime>6 && animationOne.currentTime<8)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "Wouldn't you like to get to know what you gotta do?";
+  }
+  if (animationOne.currentTime>8 && animationOne.currentTime<9)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "I don't want to know what you've got to do.";
+  }
+   if (animationOne.currentTime>10 && animationOne.currentTime<12)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "Keep swimming, just keep swimming.";
+  }
+   if (animationOne.currentTime>12 && animationOne.currentTime<14)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "Keep swimming, swimming, swimming.";
+  }
+   if (animationOne.currentTime>14 && animationOne.currentTime<16)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "What do we do?  We swim, we swim, swim.";
+  }
+  if (animationOne.currentTime>17 && animationOne.currentTime<18)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "Dorey, no singing.";
+  }
+   if (animationOne.currentTime>18 && animationOne.currentTime<19)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "Ahaha ho ho";
+  }
+   if (animationOne.currentTime>19 && animationOne.currentTime<20)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "Dorey...";
+  }
+ if (animationOne.currentTime>20 && animationOne.currentTime<20.5)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "Love to swim, love to swim.";
+  }
+ if (animationOne.currentTime>20.5 && animationOne.currentTime<21)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "Dorey...";
+  }
+  if (animationOne.currentTime>21 && animationOne.currentTime<24)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "When you wantttttt to swim!";
+  }
+  if (animationOne.currentTime>24 && animationOne.currentTime<26)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "<b>Dorey:</b>Swimmm you want to be bo..<br /><b>Fish</b>See I'm going to get stuck now";
+  }
+  if (animationOne.currentTime>26 && animationOne.currentTime<29)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "with that song that's in my head!";
+  }
   
+     ////ANIMATION TWO
+
+  animationTwo=document.getElementById("animationTwo");
+
+    var lineText = document.getElementById('lineOne');
+
+    if (animationTwo.currentTime>0 && animationTwo.currentTime<4)
+  { 
+    lineText.innerHTML = "The new Disney comedy, Wreck-It Ralph, invites you to get in the games!";
+  }
+  if (animationTwo.currentTime>4 && animationTwo.currentTime<6)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "With Jay Lynch and Jack Mcbreyor.";
+  }
+  if (animationTwo.currentTime>8 && animationTwo.currentTime<10)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "The games, it's about going for the gold.";
+  }
+   if (animationTwo.currentTime>10 && animationTwo.currentTime<12)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "But in our new movie, all it takes is a quarter.";
+  }
+   if (animationTwo.currentTime>13 && animationTwo.currentTime<15)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "Welcome to game central station...";
+  }
+   if (animationTwo.currentTime>15 && animationTwo.currentTime<18)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "Trains for all game destinations now boarding.";
+  }
+  if (animationTwo.currentTime>18 && animationTwo.currentTime<22)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "The world of video games comes together from the 8 bit block of Fix It Felix Junior";
+  }
+   if (animationTwo.currentTime>22 && animationTwo.currentTime<26)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "to the sweet tracks of sugar rush to the big battles of Hero's Duty.";
+  }
+   if (animationTwo.currentTime>26 && animationTwo.currentTime<27)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "<b>Character:</b> Incoming!";
+  }
+ if (animationTwo.currentTime>27 && animationTwo.currentTime<30)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "One guy named Wreck It Ralph will do anything to make his dreams come true.";
+  }
+ if (animationTwo.currentTime>30 && animationTwo.currentTime<33)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "<b>Character:</b> When did video games become so violent and scary?";
+  }
+  if (animationTwo.currentTime>34 && animationTwo.currentTime<36)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "You can see Wreck It Ralph in theaters November 2nd in 3d!";
+  }
+  if (animationTwo.currentTime>37 && animationTwo.currentTime<38)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "[Hit]";
+  }
+  if (animationTwo.currentTime>39 && animationTwo.currentTime<41)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "Ahh... 3d...Surreal!";
+  }
+  if (animationTwo.currentTime>42 && animationTwo.currentTime<43)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "Excuse us..";
+  }
+   if (animationTwo.currentTime>44 && animationTwo.currentTime<45)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "[Song]: I have a good feeling.";
+  }
+
+  ////ANIMATION THREE
+
+  animationThree=document.getElementById("animationThree");
+
+    var lineText = document.getElementById('lineOne');
+
+    if (animationThree.currentTime<5)
+  { 
+    lineText.innerHTML = "";
+  }
+  if (animationThree.currentTime>7 && animationThree.currentTime<9)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "Walt Disney Studios presents a studio Ghibli film.";
+  }
+  if (animationThree.currentTime>10 && animationThree.currentTime<12)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "Honey, don’t take a short cut. You always get us lost.";
+  }
+   if (animationThree.currentTime>13 && animationThree.currentTime<15)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "From a master film maker, Hayao Miyazaki";
+  }
+   if (animationThree.currentTime>16 && animationThree.currentTime<17)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "[music]";
+  }
+   if (animationThree.currentTime>18 && animationThree.currentTime<19)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "What is it?";
+  }
+  if (animationThree.currentTime>19 && animationThree.currentTime<21)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "Come on, let’s go in. I wanna see what’s on the other side.";
+  }
+   if (animationThree.currentTime>22 && animationThree.currentTime<23)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "Where are you going?";
+  }
+   if (animationThree.currentTime>24 && animationThree.currentTime<25)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "You shouldn’t be here. Get out of here! NOW!";
+  }
+ if (animationThree.currentTime>26 && animationThree.currentTime<27)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "What?";
+  }
+ if (animationThree.currentTime>27 && animationThree.currentTime<29)
+  { 
+    lineText.innerHTML = "";
+    lineText.innerHTML = "You gotta cross the river! Go, I’ll distract them!!";
+  }
+  if (animationThree.currentTime>30 && animationThree.currentTime<31)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "";
+  }
+  if (animationThree.currentTime>32 && animationThree.currentTime<33)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "Mommmmmmmmy!!";
+  }
+  if (animationThree.currentTime>34 && animationThree.currentTime<34)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "[running]";
+  }
+  if (animationThree.currentTime>35 && animationThree.currentTime<37)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "I’m dreaming, I’m dreaming!!";
+  }
+  if (animationThree.currentTime>38 && animationThree.currentTime<39)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "Don’t be afraid. I just wanna help you.";
+  }
+  if (animationThree.currentTime>40 && animationThree.currentTime<41)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "NO!";
+  }
+  if (animationThree.currentTime>42 && animationThree.currentTime<43)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "";
+  }
+  if (animationThree.currentTime>44 && animationThree.currentTime<46)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "In worlds seen and unseen";
+  }
+  if (animationThree.currentTime>47 && animationThree.currentTime<50)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "where spirits are transformed";
+  }
+  if (animationThree.currentTime>51 && animationThree.currentTime<53)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "and sorcerers rule…";
+  }
+  if (animationThree.currentTime>55 && animationThree.currentTime<57)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "Witch Baba controls you by stealing your name.";
+  }
+  if (animationThree.currentTime>58 && animationThree.currentTime<60)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "If you completely forget your name, you’ll never find your way home.";
+  }
+  if (animationThree.currentTime>61 && animationThree.currentTime<62)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "Your name belongs to me now.";
+  }
+  if (animationThree.currentTime>63 && animationThree.currentTime<68)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "One girl’s future depends on remembering one thing above all else.";
+  }
+  if (animationThree.currentTime>69 && animationThree.currentTime<71)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "I want you to know my real name. It’s Chihiro.";
+  }
+  if (animationThree.currentTime>73 && animationThree.currentTime<78)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "Experience a magical movie-phenomena embraced by all the world.";
+  }
+  if (animationThree.currentTime>79 && animationThree.currentTime<80)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "Haku!";
+  }
+  if (animationThree.currentTime>86 && animationThree.currentTime<88)
+  { 
+   　lineText.innerHTML = "";
+    lineText.innerHTML = "Spirited Away";
+  }
   }
 
 
