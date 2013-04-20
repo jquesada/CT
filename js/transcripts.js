@@ -586,6 +586,72 @@
   { 
     lineText.innerHTML = "That’s the wrong video, by the way. That is not the right video";
   } 
+
+  ////COMEDY TWO
+
+    comedyOne=document.getElementById("comedyTwo");
+    var lineText = document.getElementById('lineOne');
+
+    if (comedyTwo.currentTime<5)
+  { 
+    lineText.innerHTML = "<b>Announcer:</b> Recent polls have shown a fifth of Americans cannot locate the US on a world map  ";
+  }
+   
+   if (comedyTwo.currentTime>5 && comedyTwo.currentTime<8)
+  { 
+    lineText.innerHTML = "Why do you think this is?";
+  } 
+  
+  if (comedyTwo.currentTime>9 && comedyTwo.currentTime<11)
+  { 
+    lineText.innerHTML = "<b>South Carolina:</b> I personally believe";
+  } 
+  
+  if (comedyTwo.currentTime>12 && comedyTwo.currentTime<14 )
+  { 
+    lineText.innerHTML = "that US Americans are unable to do so";
+  } 
+  
+  if (comedyTwo.currentTime>15 && comedyTwo.currentTime<19)
+  { 
+    lineText.innerHTML = "because of soma people out there in our nation";
+  } 
+  if (comedyTwo.currentTime>19 && comedyTwo.currentTime<21)
+  { 
+    lineText.innerHTML = "that don't have maps and";
+  } 
+  if (comedyTwo.currentTime>21 && comedyTwo.currentTime<25)
+  { 
+    lineText.innerHTML = "I believe that our education like such as ";
+  }
+  if (comedyTwo.currentTime>25 && comedyTwo.currentTime<29)
+  { 
+    lineText.innerHTML = "South Africa and the Iraq, everywhere like such as and";
+  }
+  if (comedyTwo.currentTime>29 && comedyTwo.currentTime<33)
+  { 
+    lineText.innerHTML = "I believe that they should, our education over here";
+  } 
+  if (comedyTwo.currentTime>33 && comedyTwo.currentTime<36)
+  { 
+    lineText.innerHTML = "in the US should help the US";
+  }
+  if (comedyTwo.currentTime>36 && comedyTwo.currentTime<39)
+  { 
+    lineText.innerHTML = "and should help South Africa and should help";
+  }
+  if (comedyTwo.currentTime>36 && comedyTwo.currentTime<39)
+  { 
+    lineText.innerHTML = "the Iraq and the Asian countries";
+  }
+  if (comedyTwo.currentTime>40 && comedyTwo.currentTime<44)
+  { 
+    lineText.innerHTML = "so that we will be able to build up our future for our ch..";
+  }
+  if (comedyTwo.currentTime>45 && comedyTwo.currentTime<48)
+  { 
+    lineText.innerHTML = "<b>Host:</b> Thank you very much, South Carolina.";
+  }
   
   }
 
