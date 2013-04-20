@@ -79,7 +79,7 @@
     ------------------------------------------------------------------------*/
 
     //LOOPS THROUGH THE IMAGES IN OUR FOLDER AND MAKES A POST FOR EACH
-      $imagesDir = 'images/thumbs/movies/';
+      $imagesDir = 'images/thumbs/commercial/';
       $images = glob($imagesDir . '*.{jpg,jpeg,png,gif}', GLOB_BRACE);
       $count = 0;
 
