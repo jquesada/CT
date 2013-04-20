@@ -16,6 +16,7 @@
 
     ------------------------------------------------------------------------*/
 
+    $query = "?video=";
     $vid_meta = array(
        // array('A TITLE','LENGTH OF MOVIE ie: 3:38','VIDEO DESCRIPTION', 'LINK'),
 
