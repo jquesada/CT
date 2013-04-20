@@ -5,7 +5,7 @@
   <div class="main nine columns">
     <!-- CHANGE THIS ON EVERY CATEGORY PAGE -->
     <h1>Movies</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae aliquet augue.</p>
+    <p>A collection of great scenes from movies and quote mashups.</p>
     <hr/>
 
     <?php
@@ -21,51 +21,16 @@
 
         //vid 1
         array(
-          'title' => 'PC\'s Home Movie',
-          'time' => '0:30',
-          'description' => 'PC wants to show off his home movie. But It\'s not quite there. A commercial for Apple.',
+          'title' => 'You Can Act Like A Man',
+          'time' => '0:33',
+          'description' => 'The most intolerable offense of all is a man who is weak and out of control.',
           'link' => '/link/'
         ),
         //vid 2
         array(
-          'title' => 'Vader Cheats',
-          'time' => '0:31',
-          'description' => 'Darth Vader uses the force to cheat in golf. Who would dare challenge him? A commercial for Spike Network.',
-          'link' => '/link/'
-        ),
-        //vid 3
-        array(
-          'title' => 'Bud Light - Wassuup!',
-          'time' => '1:02',
-          'description' => 'The average afternoon for some guys and their favorite, refreshing drink. A commercial for Budweiser.',
-          'link' => '/link/'
-        )
-        //vid 4
-        array(
-          'title' => 'Mazda - Improbable is Possible',
+          'title' => 'Freeze!',
           'time' => '0:30',
-          'description' => 'The Mazda CX-9 defies many stereotypes and becomes the best vehicle for an incredible world. A commercial for Mazda.',
-          'link' => '/link/'
-        )
-        //vid 5
-        array(
-          'title' => 'M&M\'s Won\'t Do That',
-          'time' => '0:30',
-          'description' => 'Red M&M is haunted by the lengths he won\'t go for love. A Commercial for M&M\'s.',
-          'link' => '/link/'
-        )
-        //vid 6
-        array(
-          'title' => 'Amy Poehler at Best Buy',
-          'time' => '0:32',
-          'description' => 'Amy Poehler\'s shopping at Best Buy and asks the really tough questions. A commercial for Best Buy.',
-          'link' => '/link/'
-        )
-        //vid 7
-        array(
-          'title' => 'How PSY Does it',
-          'time' => '0:30',
-          'description' => 'Everyone loves pistachios! Music sensation PSY is no different, and enjoys his Gangnam Style. A Commercial for Wonderful Pistachios.',
+          'description' => 'A mashup of Arnold Schwarzenegger\'s greatest quotes from Batman & Robin.',
           'link' => '/link/'
         )
 

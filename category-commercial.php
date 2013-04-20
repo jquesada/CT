@@ -5,7 +5,7 @@
   <div class="main nine columns">
     <!-- CHANGE THIS ON EVERY CATEGORY PAGE -->
     <h1>Commercial</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae aliquet augue.</p>
+    <p>A collection of commercials from around the world.</p>
     <hr/>
 
     <?php
