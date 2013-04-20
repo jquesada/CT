@@ -38,14 +38,14 @@
 
     //// COMMERCIAL 2 (COMMERICAL 1 IS MAIN HOME VIDEO)
 
-    commericalTwo=document.getElementById("commericalTwo");
+    commercialTwo=document.getElementById("commercialTwo");
     var lineText = document.getElementById('lineOne');
 
-    if (commericalTwo.currentTime<5)
+    if (commercialTwo.currentTime<5)
   { 
     lineText.innerHTML = "<b>Vader:</b> (Breathing)";
   }
-  if (commericalTwo.currentTime>5 && commericalTwo.currentTime<10)
+  if (commercialTwo.currentTime>5 && commercialTwo.currentTime<10)
   { 
     lineText.innerHTML = "<b>Vader:</b> (Breathing)";
     // var breakTag = document.createElement('br');
@@ -53,37 +53,37 @@
     // lineText.appendChild(breakTag);
     // lineText.appendChild(nextLine);
   }
-  if (commericalTwo.currentTime>10 && commericalTwo.currentTime<15)
+  if (commercialTwo.currentTime>10 && commercialTwo.currentTime<15)
   { 
     lineText.innerHTML = "<b>Vader:</b> (Breathing)";
   }
-   if (commericalTwo.currentTime>15 && commericalTwo.currentTime<20)
+   if (commercialTwo.currentTime>15 && commercialTwo.currentTime<20)
   { 
     lineText.innerHTML = "<b>Golfer:</b> N..N..No.. no way!  I'm not playing you, this is ridiculous.  Every hole it's the same crap!";
   }
-   if (commericalTwo.currentTime>20 && commericalTwo.currentTime<22)
+   if (commercialTwo.currentTime>20 && commercialTwo.currentTime<22)
   { 
     lineText.innerHTML = "<b>Golfer:</b> (Choking)";
   }
-   if (commericalTwo.currentTime>22 && commericalTwo.currentTime<24)
+   if (commercialTwo.currentTime>22 && commercialTwo.currentTime<24)
   { 
     lineText.innerHTML = "<b>Golfer:</b> Hey don't I wouldn't.";
   }
-   if (commericalTwo.currentTime>24 && commericalTwo.currentTime<30)
+   if (commercialTwo.currentTime>24 && commercialTwo.currentTime<30)
   { 
     lineText.innerHTML = "(Star Wars Theme).";
   }
 
   ////COMMERCIAL 3
 
-    commericalThree=document.getElementById("commericalThree");
+    commercialThree=document.getElementById("commercialThree");
     var lineText = document.getElementById('lineOne');
 
-    if (commericalThree.currentTime<3)
+    if (commercialThree.currentTime<3)
   { 
     lineText.innerHTML = "(Phone Rings)";
   }
-  if (commericalThree.currentTime>3 && commericalThree.currentTime<5)
+  if (commercialThree.currentTime>3 && commercialThree.currentTime<5)
   { 
     lineText.innerHTML = "Hello?";
     // var breakTag = document.createElement('br');
@@ -91,79 +91,79 @@
     // lineText.appendChild(breakTag);
     // lineText.appendChild(nextLine);
   }
-  if (commericalThree.currentTime>6 && commericalThree.currentTime<7)
+  if (commercialThree.currentTime>6 && commercialThree.currentTime<7)
   { 
     lineText.innerHTML = "Yo.  What's up?";
   }
-   if (commericalThree.currentTime>7 && commericalThree.currentTime<12)
+   if (commercialThree.currentTime>7 && commercialThree.currentTime<12)
   { 
     lineText.innerHTML = "Nothing b.  Watching the game, having a bud.  What's up with you?";
   }
-   if (commericalThree.currentTime>12 && commericalThree.currentTime<16)
+   if (commercialThree.currentTime>12 && commercialThree.currentTime<16)
   { 
     lineText.innerHTML = "Nothing.  Watching the game, having a bud.";
   }
-   if (commericalThree.currentTime>16 && commericalThree.currentTime<18)
+   if (commercialThree.currentTime>16 && commercialThree.currentTime<18)
   { 
     lineText.innerHTML = "True, true.";
   }
-   if (commericalThree.currentTime>18 && commericalThree.currentTime<22)
+   if (commercialThree.currentTime>18 && commercialThree.currentTime<22)
   { 
     lineText.innerHTML = "What's upppp?!  What's uuuuuupppp?!";
   }
-   if (commericalThree.currentTime>22 && commericalThree.currentTime<25)
+   if (commercialThree.currentTime>22 && commercialThree.currentTime<25)
   { 
     lineText.innerHTML = "Yo!  Yo!  Pick up the phone!";
   }
-   if (commericalThree.currentTime>27 && commericalThree.currentTime<28)
+   if (commercialThree.currentTime>27 && commercialThree.currentTime<28)
   { 
     lineText.innerHTML = "Hello?";
   }
-  if (commericalThree.currentTime>28 && commericalThree.currentTime<31)
+  if (commercialThree.currentTime>28 && commercialThree.currentTime<31)
   { 
     lineText.innerHTML = "What's uppppp??  What's uppppp?? Ahhhhhh";
   }
-  if (commericalThree.currentTime>31 && commericalThree.currentTime<33)
+  if (commercialThree.currentTime>31 && commercialThree.currentTime<33)
   { 
     lineText.innerHTML = "Yo, where's Dukie?";
   }
-  if (commericalThree.currentTime>33 && commericalThree.currentTime<35)
+  if (commercialThree.currentTime>33 && commercialThree.currentTime<35)
   { 
     lineText.innerHTML = "Yo Duke!";
   }
-  if (commericalThree.currentTime>37 && commericalThree.currentTime<38)
+  if (commercialThree.currentTime>37 && commercialThree.currentTime<38)
   { 
     lineText.innerHTML = "Yo.";
   }
-  if (commericalThree.currentTime>38 && commericalThree.currentTime<44)
+  if (commercialThree.currentTime>38 && commercialThree.currentTime<44)
   { 
     lineText.innerHTML = "What's uppppp?!??!  What's upppp?  Ahhhh Ahhhhh";
   }
-  if (commericalThree.currentTime>44 && commericalThree.currentTime<45)
+  if (commercialThree.currentTime>44 && commercialThree.currentTime<45)
   { 
     lineText.innerHTML = "Hold on";
   }
-  if (commericalThree.currentTime>45 && commericalThree.currentTime<46)
+  if (commercialThree.currentTime>45 && commercialThree.currentTime<46)
   { 
     lineText.innerHTML = "Hello?";
   }
-  if (commericalThree.currentTime>46 && commericalThree.currentTime<51)
+  if (commercialThree.currentTime>46 && commercialThree.currentTime<51)
   { 
     lineText.innerHTML = "What's uppp???!  What'sssss uppp?!!  Ahhhh ahhhh Ahhhh ahhh!!";
   }
-  if (commericalThree.currentTime>51 && commericalThree.currentTime<52)
+  if (commercialThree.currentTime>51 && commercialThree.currentTime<52)
   { 
     lineText.innerHTML = "(Hang Up Phones)";
   }
-  if (commericalThree.currentTime>53 && commericalThree.currentTime<55)
+  if (commercialThree.currentTime>53 && commercialThree.currentTime<55)
   { 
     lineText.innerHTML = "So what's up b?";
   }
-  if (commericalThree.currentTime>55 && commericalThree.currentTime<57)
+  if (commercialThree.currentTime>55 && commercialThree.currentTime<57)
   { 
     lineText.innerHTML = "Watching the game, having a bud";
   }
-  if (commericalThree.currentTime>58 && commericalThree.currentTime<59)
+  if (commercialThree.currentTime>58 && commercialThree.currentTime<59)
   { 
     lineText.innerHTML = "True, true.";
   }
