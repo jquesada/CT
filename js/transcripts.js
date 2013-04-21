@@ -1,175 +1,180 @@
   ///////////Insert Captions and Timing Here
 
-  function loadText (){
+  function loadText (videoID){
 
     /////MAIN HOME PAGE VIDEO
 
-    myVid=document.getElementById("video1");
-    var lineText = document.getElementById('lineOne');
+    if(videoID == 'video1') {
 
-    if (myVid.currentTime<5)
-    { 
-      lineText.innerHTML = "<b>Mac:</b> Hello, I'm a Mac.  <b>PC:</b> And I'm a PC.  You know I just finished a home movie.";
-    }
-    if (myVid.currentTime>5 && myVid.currentTime<10)
-    { 
-      lineText.innerHTML = "<b>Mac:</b> You know that's so funny, I just finished my own home movie.  I did on iMovie it was really easy.  <b>PC:</b> Well I doubt it's as excellent as mine but";
-      var breakTag = document.createElement('br');
-      var nextLine = document.createTextNode('This is a new line');
-      lineText.appendChild(breakTag);
-      lineText.appendChild(nextLine);
-    }
-    if (myVid.currentTime>10 && myVid.currentTime<15)
-    { 
-      lineText.innerHTML = "I'd be happy to take a look.  <b>Mac:</b> Yeah that would be great, roll it.  <b>Mac Movie:</b> Hi, I'm a Mac movie.";
-    }
-     if (myVid.currentTime>15 && myVid.currentTime<20)
-    { 
-      lineText.innerHTML = "<b>Mac:</b> That looks really professional right?  <b>PC:</b> Well, great.  Bye.";
-    }
-     if (myVid.currentTime>20 && myVid.currentTime<25)
-    { 
-      lineText.innerHTML = "<b>Mac:</b> W..w..w..wait what about your excuse?  <b>PC:</b> Uhh.  <b>Mac Movie:</b> Please?  <b>PC:</b> Well okay, sure.";
-    }
-     if (myVid.currentTime>25 && myVid.currentTime<30)
-    { 
-      lineText.innerHTML = "<b>PC Movie:</b> What's up?  PC home movie.  <b>PC:</b> Work in progress.";
+      myVid=document.getElementById("video1");
+      var lineText = document.getElementById('lineOne');
+
+      if (myVid.currentTime<5)
+      {
+        lineText.innerHTML = "<b>Mac:</b> Hello, I'm a Mac.  <b>PC:</b> And I'm a PC.  You know I just finished a home movie.";
+      }
+      if (myVid.currentTime>5 && myVid.currentTime<10)
+      { 
+        lineText.innerHTML = "<b>Mac:</b> You know that's so funny, I just finished my own home movie.  I did on iMovie it was really easy.  <b>PC:</b> Well I doubt it's as excellent as mine but";
+        var breakTag = document.createElement('br');
+        var nextLine = document.createTextNode('This is a new line');
+        lineText.appendChild(breakTag);
+        lineText.appendChild(nextLine);
+      }
+      if (myVid.currentTime>10 && myVid.currentTime<15)
+      { 
+        lineText.innerHTML = "I'd be happy to take a look.  <b>Mac:</b> Yeah that would be great, roll it.  <b>Mac Movie:</b> Hi, I'm a Mac movie.";
+      }
+       if (myVid.currentTime>15 && myVid.currentTime<20)
+      { 
+        lineText.innerHTML = "<b>Mac:</b> That looks really professional right?  <b>PC:</b> Well, great.  Bye.";
+      }
+       if (myVid.currentTime>20 && myVid.currentTime<25)
+      { 
+        lineText.innerHTML = "<b>Mac:</b> W..w..w..wait what about your excuse?  <b>PC:</b> Uhh.  <b>Mac Movie:</b> Please?  <b>PC:</b> Well okay, sure.";
+      }
+       if (myVid.currentTime>25 && myVid.currentTime<30)
+      { 
+        lineText.innerHTML = "<b>PC Movie:</b> What's up?  PC home movie.  <b>PC:</b> Work in progress.";
+      }
     }
 
     //// COMMERCIAL 2 (COMMERICAL 1 IS MAIN HOME VIDEO)
+    if(videoID == 'commercialTwo') {
+      commercialTwo=document.getElementById("commercialTwo");
+      var lineText = document.getElementById('lineOne');
 
-    commercialTwo=document.getElementById("commercialTwo");
-    var lineText = document.getElementById('lineOne');
-
-    if (commercialTwo.currentTime<5)
-    { 
-      lineText.innerHTML = "<b>Vader:</b> (Breathing)";
+      if (commercialTwo.currentTime<5)
+      { 
+        lineText.innerHTML = "<b>Vader:</b> (Breathing)";
+      }
+      if (commercialTwo.currentTime>5 && commercialTwo.currentTime<10)
+      { 
+        lineText.innerHTML = "<b>Vader:</b> (Breathing)";
+        // var breakTag = document.createElement('br');
+        // var nextLine = document.createTextNode('This is a new line');
+        // lineText.appendChild(breakTag);
+        // lineText.appendChild(nextLine);
+      }
+      if (commercialTwo.currentTime>10 && commercialTwo.currentTime<15)
+      { 
+        lineText.innerHTML = "<b>Vader:</b> (Breathing)";
+      }
+       if (commercialTwo.currentTime>15 && commercialTwo.currentTime<20)
+      { 
+        lineText.innerHTML = "<b>Golfer:</b> N..N..No.. no way!  I'm not playing you, this is ridiculous.  Every hole it's the same crap!";
+      }
+       if (commercialTwo.currentTime>20 && commercialTwo.currentTime<22)
+      { 
+        lineText.innerHTML = "<b>Golfer:</b> (Choking)";
+      }
+       if (commercialTwo.currentTime>22 && commercialTwo.currentTime<24)
+      { 
+        lineText.innerHTML = "<b>Golfer:</b> Hey don't I wouldn't.";
+      }
+       if (commercialTwo.currentTime>24 && commercialTwo.currentTime<30)
+      { 
+        lineText.innerHTML = "(Star Wars Theme).";
+      }
     }
-    if (commercialTwo.currentTime>5 && commercialTwo.currentTime<10)
-    { 
-      lineText.innerHTML = "<b>Vader:</b> (Breathing)";
-      // var breakTag = document.createElement('br');
-      // var nextLine = document.createTextNode('This is a new line');
-      // lineText.appendChild(breakTag);
-      // lineText.appendChild(nextLine);
-    }
-    if (commercialTwo.currentTime>10 && commercialTwo.currentTime<15)
-    { 
-      lineText.innerHTML = "<b>Vader:</b> (Breathing)";
-    }
-     if (commercialTwo.currentTime>15 && commercialTwo.currentTime<20)
-    { 
-      lineText.innerHTML = "<b>Golfer:</b> N..N..No.. no way!  I'm not playing you, this is ridiculous.  Every hole it's the same crap!";
-    }
-     if (commercialTwo.currentTime>20 && commercialTwo.currentTime<22)
-    { 
-      lineText.innerHTML = "<b>Golfer:</b> (Choking)";
-    }
-     if (commercialTwo.currentTime>22 && commercialTwo.currentTime<24)
-    { 
-      lineText.innerHTML = "<b>Golfer:</b> Hey don't I wouldn't.";
-    }
-     if (commercialTwo.currentTime>24 && commercialTwo.currentTime<30)
-    { 
-      lineText.innerHTML = "(Star Wars Theme).";
-    }
-
     ////COMMERCIAL 3
 
+    if(videoID == 'commercialThree') {
       commercialThree=document.getElementById("commercialThree");
       var lineText = document.getElementById('lineOne');
 
       if (commercialThree.currentTime<3)
-    { 
-      lineText.innerHTML = "(Phone Rings)";
+      { 
+        lineText.innerHTML = "(Phone Rings)";
+      }
+      if (commercialThree.currentTime>3 && commercialThree.currentTime<5)
+      { 
+        lineText.innerHTML = "Hello?";
+        // var breakTag = document.createElement('br');
+        // var nextLine = document.createTextNode('This is a new line');
+        // lineText.appendChild(breakTag);
+        // lineText.appendChild(nextLine);
+      }
+      if (commercialThree.currentTime>6 && commercialThree.currentTime<7)
+      { 
+        lineText.innerHTML = "Yo.  What's up?";
+      }
+       if (commercialThree.currentTime>7 && commercialThree.currentTime<12)
+      { 
+        lineText.innerHTML = "Nothing b.  Watching the game, having a bud.  What's up with you?";
+      }
+       if (commercialThree.currentTime>12 && commercialThree.currentTime<16)
+      { 
+        lineText.innerHTML = "Nothing.  Watching the game, having a bud.";
+      }
+       if (commercialThree.currentTime>16 && commercialThree.currentTime<18)
+      { 
+        lineText.innerHTML = "True, true.";
+      }
+       if (commercialThree.currentTime>18 && commercialThree.currentTime<22)
+      { 
+        lineText.innerHTML = "What's upppp?!  What's uuuuuupppp?!";
+      }
+       if (commercialThree.currentTime>22 && commercialThree.currentTime<25)
+      { 
+        lineText.innerHTML = "Yo!  Yo!  Pick up the phone!";
+      }
+       if (commercialThree.currentTime>27 && commercialThree.currentTime<28)
+      { 
+        lineText.innerHTML = "Hello?";
+      }
+      if (commercialThree.currentTime>28 && commercialThree.currentTime<31)
+      { 
+        lineText.innerHTML = "What's uppppp??  What's uppppp?? Ahhhhhh";
+      }
+      if (commercialThree.currentTime>31 && commercialThree.currentTime<33)
+      { 
+        lineText.innerHTML = "Yo, where's Dukie?";
+      }
+      if (commercialThree.currentTime>33 && commercialThree.currentTime<35)
+      { 
+        lineText.innerHTML = "Yo Duke!";
+      }
+      if (commercialThree.currentTime>37 && commercialThree.currentTime<38)
+      { 
+        lineText.innerHTML = "Yo.";
+      }
+      if (commercialThree.currentTime>38 && commercialThree.currentTime<44)
+      { 
+        lineText.innerHTML = "What's uppppp?!??!  What's upppp?  Ahhhh Ahhhhh";
+      }
+      if (commercialThree.currentTime>44 && commercialThree.currentTime<45)
+      { 
+        lineText.innerHTML = "Hold on";
+      }
+      if (commercialThree.currentTime>45 && commercialThree.currentTime<46)
+      { 
+        lineText.innerHTML = "Hello?";
+      }
+      if (commercialThree.currentTime>46 && commercialThree.currentTime<51)
+      { 
+        lineText.innerHTML = "What's uppp???!  What'sssss uppp?!!  Ahhhh ahhhh Ahhhh ahhh!!";
+      }
+      if (commercialThree.currentTime>51 && commercialThree.currentTime<52)
+      { 
+        lineText.innerHTML = "(Hang Up Phones)";
+      }
+      if (commercialThree.currentTime>53 && commercialThree.currentTime<55)
+      { 
+        lineText.innerHTML = "So what's up b?";
+      }
+      if (commercialThree.currentTime>55 && commercialThree.currentTime<57)
+      { 
+        lineText.innerHTML = "Watching the game, having a bud";
+      }
+      if (commercialThree.currentTime>58 && commercialThree.currentTime<59)
+      { 
+        lineText.innerHTML = "True, true.";
+      }
     }
-    if (commercialThree.currentTime>3 && commercialThree.currentTime<5)
-    { 
-      lineText.innerHTML = "Hello?";
-      // var breakTag = document.createElement('br');
-      // var nextLine = document.createTextNode('This is a new line');
-      // lineText.appendChild(breakTag);
-      // lineText.appendChild(nextLine);
-    }
-    if (commercialThree.currentTime>6 && commercialThree.currentTime<7)
-    { 
-      lineText.innerHTML = "Yo.  What's up?";
-    }
-     if (commercialThree.currentTime>7 && commercialThree.currentTime<12)
-    { 
-      lineText.innerHTML = "Nothing b.  Watching the game, having a bud.  What's up with you?";
-    }
-     if (commercialThree.currentTime>12 && commercialThree.currentTime<16)
-    { 
-      lineText.innerHTML = "Nothing.  Watching the game, having a bud.";
-    }
-     if (commercialThree.currentTime>16 && commercialThree.currentTime<18)
-    { 
-      lineText.innerHTML = "True, true.";
-    }
-     if (commercialThree.currentTime>18 && commercialThree.currentTime<22)
-    { 
-      lineText.innerHTML = "What's upppp?!  What's uuuuuupppp?!";
-    }
-     if (commercialThree.currentTime>22 && commercialThree.currentTime<25)
-    { 
-      lineText.innerHTML = "Yo!  Yo!  Pick up the phone!";
-    }
-     if (commercialThree.currentTime>27 && commercialThree.currentTime<28)
-    { 
-      lineText.innerHTML = "Hello?";
-    }
-    if (commercialThree.currentTime>28 && commercialThree.currentTime<31)
-    { 
-      lineText.innerHTML = "What's uppppp??  What's uppppp?? Ahhhhhh";
-    }
-    if (commercialThree.currentTime>31 && commercialThree.currentTime<33)
-    { 
-      lineText.innerHTML = "Yo, where's Dukie?";
-    }
-    if (commercialThree.currentTime>33 && commercialThree.currentTime<35)
-    { 
-      lineText.innerHTML = "Yo Duke!";
-    }
-    if (commercialThree.currentTime>37 && commercialThree.currentTime<38)
-    { 
-      lineText.innerHTML = "Yo.";
-    }
-    if (commercialThree.currentTime>38 && commercialThree.currentTime<44)
-    { 
-      lineText.innerHTML = "What's uppppp?!??!  What's upppp?  Ahhhh Ahhhhh";
-    }
-    if (commercialThree.currentTime>44 && commercialThree.currentTime<45)
-    { 
-      lineText.innerHTML = "Hold on";
-    }
-    if (commercialThree.currentTime>45 && commercialThree.currentTime<46)
-    { 
-      lineText.innerHTML = "Hello?";
-    }
-    if (commercialThree.currentTime>46 && commercialThree.currentTime<51)
-    { 
-      lineText.innerHTML = "What's uppp???!  What'sssss uppp?!!  Ahhhh ahhhh Ahhhh ahhh!!";
-    }
-    if (commercialThree.currentTime>51 && commercialThree.currentTime<52)
-    { 
-      lineText.innerHTML = "(Hang Up Phones)";
-    }
-    if (commercialThree.currentTime>53 && commercialThree.currentTime<55)
-    { 
-      lineText.innerHTML = "So what's up b?";
-    }
-    if (commercialThree.currentTime>55 && commercialThree.currentTime<57)
-    { 
-      lineText.innerHTML = "Watching the game, having a bud";
-    }
-    if (commercialThree.currentTime>58 && commercialThree.currentTime<59)
-    { 
-      lineText.innerHTML = "True, true.";
-    }
-
     /////COMMERCIAL FOUR
 
+  if(videoID == 'commercialFour') {
     commercialFour=document.getElementById("commercialFour");
       var lineText = document.getElementById('lineOne');
 
@@ -228,9 +233,9 @@
     { 
       lineText.innerHTML = "What do you drive? ";
     } 
-
+  }
     ////COMMERCIAL FIVE
-
+  if(videoID == 'commercialFive') {
     commercialFive=document.getElementById("commercialFive");
       var lineText = document.getElementById('lineOne');
 
@@ -281,9 +286,10 @@
     { 
       lineText.innerHTML = "It hurts, but I kinda like it! ";
     } 
+  }
 
     ////COMMERCIAL SIX
-
+  if(videoID == 'commercialSix') {
       commercialSix=document.getElementById("commercialSix");
       var lineText = document.getElementById('lineOne');
 
@@ -378,9 +384,9 @@
     { 
       lineText.innerHTML = "<b>Best Buy Employee:</b> Nothing ";
     } 
-
+  }
     /////COMMERCIAL SEVEN
-
+  if(videoID == 'commercialSeven') {
       commercialSeven=document.getElementById("commercialSeven");
       var lineText = document.getElementById('lineOne');
 
@@ -443,9 +449,9 @@
     { 
       lineText.innerHTML = "Wonderful pistachios, get crackin’!";
     }
-
+  }
     ////MOVIE ONE
-
+  if(videoID == 'movieOne') {  
     movieOne=document.getElementById("movieOne");
       var lineText = document.getElementById('lineOne');
 
@@ -510,10 +516,10 @@
     { 
       lineText.innerHTML = "Ridiculous....";
     }
-
+  }
 
     ////MOVIE TWO
-
+  if(videoID == 'movieTwo') {
      movieTwo=document.getElementById("movieTwo");
       var lineText = document.getElementById('lineOne');
 
@@ -556,9 +562,9 @@
     { 
       lineText.innerHTML = "Let's kick some Ice! ";
     } 
-
+  }
     ////COMEDY ONE
-
+  if(videoID == 'comedyOne') {
       comedyOne=document.getElementById("comedyOne");
       var lineText = document.getElementById('lineOne');
 
@@ -586,9 +592,9 @@
     { 
       lineText.innerHTML = "That’s the wrong video, by the way. That is not the right video";
     } 
-
+  }
     ////COMEDY TWO
-
+  if(videoID == 'comedyTwo') {
       comedyOne=document.getElementById("comedyTwo");
       var lineText = document.getElementById('lineOne');
 
@@ -652,9 +658,9 @@
     { 
       lineText.innerHTML = "<b>Host:</b> Thank you very much, South Carolina.";
     }
-
+  }
       ////ANIMATION ONE
-
+  if(videoID == 'animationOne') {
     animationOne=document.getElementById("animationOne");
 
       var lineText = document.getElementById('lineOne');
@@ -728,9 +734,9 @@
      　lineText.innerHTML = "";
       lineText.innerHTML = "with that song that's in my head!";
     }
-    
+  }
        ////ANIMATION TWO
-
+  if(videoID == 'animationTwo') {
     animationTwo=document.getElementById("animationTwo");
 
       var lineText = document.getElementById('lineOne');
@@ -814,9 +820,9 @@
      　lineText.innerHTML = "";
       lineText.innerHTML = "[Song]: I have a good feeling.";
     }
-
+  }
     ////ANIMATION THREE
-
+  if(videoID == 'animationThree') {
     animationThree=document.getElementById("animationThree");
 
       var lineText = document.getElementById('lineOne');
@@ -966,6 +972,7 @@
       lineText.innerHTML = "Spirited Away";
     }
   }
+  }
 
 
 
@@ -974,7 +981,7 @@
 if($('video').get().length > 0) { 
     for (var x=0;x<10000;x++){
         setInterval(function(){
-      loadText();
+      loadText($('video').attr('id'));
     },300);
   }
 }
