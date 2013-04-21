@@ -16,7 +16,7 @@
       $getQuery = $_GET['video'];
 
       if ($getQuery=="commercial_1"){
-        $videoId = "commercialOne";
+        $videoId = "video1";
         $title = "PC vs. Mac";
         $alt = "PC vs Mac";
         $sourceOne = "videos/commercial/commercial_1.mp4";
