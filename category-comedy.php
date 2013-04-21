@@ -24,14 +24,14 @@
           'title' => 'Miss USA Question',
           'time' => '0:49',
           'description' => 'Miss South Carolina shines when it comes to answering simple questions. The south is proud.',
-          'link' => 'comedy_1'
+          'query' => 'comedy_1'
         ),
         //vid 2
         array(
           'title' => 'News Anchor Reads Wrong Story',
           'time' => '0:15',
           'description' => 'A news anchor describes a different story than what is shown. Oops!',
-          'link' => 'comedy_2'
+          'query' => 'comedy_2'
         ),
 
       );
