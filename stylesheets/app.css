@@ -129,7 +129,7 @@ p.center
 
 #morestuff
 {
-	padding-bottom: 20px;
+	padding-bottom: 100px;
 	background-color: #fff;
 	border-top: 1px solid #e8e8e8;
 }
@@ -234,10 +234,4 @@ ul.nav-bar.right li a:hover
 	background-image: url('../images/change_icon_hover.png');
 	border: 0px;
 	margin-right: 10px;
-}
-
-.content
-{
-	padding-bottom: 100px;
-	background-color: #fff;
 }

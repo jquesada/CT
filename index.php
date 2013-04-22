@@ -6,7 +6,6 @@ $viewAll = "viewScriptCommecialOne()";
 
   <!-- First Band (Slider) -->
   <!-- The Orbit slider is initialized at the bottom of the page by calling .orbit() on #slider -->
-   <div class="content">
   <div class="row">
     <div class="twelve columns">
    
@@ -158,7 +157,6 @@ $viewAll = "viewScriptCommecialOne()";
     </div>
     
   </div>
-</div>
 </div>
 
 <?php include "footer.php"; ?>
