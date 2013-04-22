@@ -235,3 +235,8 @@ ul.nav-bar.right li a:hover
 	border: 0px;
 	margin-right: 10px;
 }
+
+.post
+{
+	padding-bottom: 200px;
+}
